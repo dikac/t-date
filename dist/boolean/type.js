@@ -10,7 +10,13 @@
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function Type(value) {
-        return value instanceof Date;
+        if (!(value instanceof Date)) {
+            return false;
+        }
+        if (isNaN(value.getTime())) {
+            return false;
+        }
+        return true;
     }
     exports.default = Type;
 });

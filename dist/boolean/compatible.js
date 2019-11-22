@@ -10,15 +10,20 @@
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     const type_1 = require("./type");
-    function Valid(value) {
+    function Compatible(value) {
         if (!type_1.default(value)) {
             return false;
         }
-        if (isNaN(value.getTime())) {
+        try {
+            if (!type_1.default(new Date(value))) {
+                return false;
+            }
+        }
+        catch (e) {
             return false;
         }
         return true;
     }
-    exports.default = Valid;
+    exports.default = Compatible;
 });
-//# sourceMappingURL=valid.js.map
+//# sourceMappingURL=compatible.js.map
