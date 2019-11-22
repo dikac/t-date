@@ -1,0 +1,1 @@
+{"version":3,"file":"valid.js","sourceRoot":"","sources":["../../src/boolean/valid.ts"],"names":[],"mappings":";;;;;;;;;;;IAAA,iCAA0B;IAE1B,SAAwB,KAAK,CAAC,KAAU;QAEpC,IAAG,CAAC,cAAI,CAAC,KAAK,CAAC,EAAE;YAEb,OAAO,KAAK,CAAC;SAChB;QAED,IAAG,KAAK,CAAC,KAAK,CAAC,OAAO,EAAE,CAAC,EAAE;YAEvB,OAAO,KAAK,CAAC;SAChB;QAED,OAAO,IAAI,CAAC;IAChB,CAAC;IAbD,wBAaC"}
