@@ -1,6 +1,6 @@
 {
   "name": "t-date",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "Typescript date",
   "dependencies": {
     "@types/node": "^12.12.11",

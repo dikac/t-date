@@ -11,8 +11,8 @@
     Object.defineProperty(exports, "__esModule", { value: true });
     const type_1 = require("./type");
     function Compatible(value) {
-        if (!type_1.default(value)) {
-            return false;
+        if (type_1.default(value)) {
+            return true;
         }
         try {
             if (!type_1.default(new Date(value))) {

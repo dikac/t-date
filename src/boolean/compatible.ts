@@ -2,9 +2,9 @@ import Type from "./type";
 
 export default function Compatible(value: any) : value is Date {
 
-    if(!Type(value)) {
+    if(Type(value)) {
 
-        return false;
+        return true;
     }
 
     try {
