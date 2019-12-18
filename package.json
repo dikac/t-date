@@ -1,6 +1,6 @@
 {
   "name": "t-date",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Typescript date",
   "dependencies": {
     "@types/node": "^12.12.11",
@@ -26,7 +26,6 @@
   },
   "files": [
     "tsconfig.json",
-    "src/",
     "dist/",
     "LICENSE",
     "Readme.md"
