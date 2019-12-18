@@ -1,1 +1,1 @@
-export default function Compatible(value: any): value is Date;
+export default function Compatible(value: any, nullable?: boolean): value is Date;

@@ -1,6 +1,11 @@
 import Type from "./type";
 
-export default function Compatible(value: any) : value is Date {
+export default function Compatible(value: any, nullable : boolean = false) : value is Date {
+
+    if(!nullable && value === null) {
+
+        return false;
+    }
 
     if(Type(value)) {
 

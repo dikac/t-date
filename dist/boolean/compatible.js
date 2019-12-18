@@ -10,7 +10,10 @@
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     const type_1 = require("./type");
-    function Compatible(value) {
+    function Compatible(value, nullable = false) {
+        if (!nullable && value === null) {
+            return false;
+        }
         if (type_1.default(value)) {
             return true;
         }
