@@ -1,10 +1,10 @@
 {
-  "name": "t-date",
-  "version": "0.7.7",
+  "name": "@dikac/t-date",
+  "version": "0.7.8",
   "description": "Typescript date",
   "dependencies": {
     "@types/node": "^12.12.11",
-    "dist-mover": "git+https://github.com/dikac/dist-mover.git",
+    "dist-mover": "0.0.9",
     "npm-run-all": "^4.1.5",
     "typescript": "^3.7.2"
   },
@@ -26,7 +26,6 @@
   },
   "files": [
     "tsconfig.json",
-    "src/",
     "dist/",
     "LICENSE",
     "Readme.md"
