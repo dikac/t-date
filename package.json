@@ -3,7 +3,15 @@
   "version": "0.7.17",
   "description": "Typescript date",
   "dependencies": {
-    "@dikac/deployer": "^0.1.5"
+    "ts-toolbelt": "^8.0.6",
+    "@dikac/deployer": "^0.1.5",
+    "@dikac/t-string": "^0.15.3",
+    "@dikac/t-value": "^0.14.2",
+    "@dikac/t-message": "^0.11.2",
+    "@dikac/t-function": "^0.14.1",
+    "@dikac/t-number": "^0.16.4",
+    "@dikac/t-validatable": "^0.19.2",
+    "@dikac/t-validator": "^0.17.2"
   },
   "devDependencies": {
     "@types/jasmine": "^3.5.14",
