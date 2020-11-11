@@ -1,6 +1,6 @@
 {
   "name": "@dikac/t-date",
-  "version": "0.7.17",
+  "version": "0.8.0",
   "description": "Typescript date",
   "dependencies": {
     "ts-toolbelt": "^8.0.6",
