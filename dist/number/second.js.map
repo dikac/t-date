@@ -1,1 +1,1 @@
-{"version":3,"file":"second.js","sourceRoot":"","sources":["../../src/number/second.ts"],"names":[],"mappings":";;;;;;;;;;;IAAA,uDAA+C;IAE/C,SAAwB,MAAM,CAAC,IAAW;QAEtC,OAAO,IAAI,CAAC,KAAK,CAAC,yBAAc,CAAC,IAAI,CAAC,CAAC,CAAC;IAC5C,CAAC;IAHD,yBAGC"}
+{"version":3,"file":"second.js","sourceRoot":"","sources":["../../src/number/second.ts"],"names":[],"mappings":"AAAA,OAAO,cAAc,MAAM,mBAAmB,CAAC;AAE/C,MAAM,CAAC,OAAO,UAAU,MAAM,CAAC,IAAW;IAEtC,OAAO,IAAI,CAAC,KAAK,CAAC,cAAc,CAAC,IAAI,CAAC,CAAC,CAAC;AAC5C,CAAC"}

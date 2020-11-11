@@ -1,32 +1,19 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+import Type from "./type";
+export default function Compatible(value, nullable = false) {
+    if (!nullable && value === null) {
+        return false;
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "./type"], factory);
-    }
-})(function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    const type_1 = require("./type");
-    function Compatible(value, nullable = false) {
-        if (!nullable && value === null) {
-            return false;
-        }
-        if (type_1.default(value)) {
-            return true;
-        }
-        try {
-            if (!type_1.default(new Date(value))) {
-                return false;
-            }
-        }
-        catch (e) {
-            return false;
-        }
+    if (Type(value)) {
         return true;
     }
-    exports.default = Compatible;
-});
+    try {
+        if (!Type(new Date(value))) {
+            return false;
+        }
+    }
+    catch (e) {
+        return false;
+    }
+    return true;
+}
 //# sourceMappingURL=compatible.js.map

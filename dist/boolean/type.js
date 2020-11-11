@@ -1,23 +1,10 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+export default function Type(value) {
+    if (!(value instanceof Date)) {
+        return false;
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports"], factory);
+    if (isNaN(value.getTime())) {
+        return false;
     }
-})(function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    function Type(value) {
-        if (!(value instanceof Date)) {
-            return false;
-        }
-        if (isNaN(value.getTime())) {
-            return false;
-        }
-        return true;
-    }
-    exports.default = Type;
-});
+    return true;
+}
 //# sourceMappingURL=type.js.map

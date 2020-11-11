@@ -1,1 +1,1 @@
-{"version":3,"file":"second-fraction.js","sourceRoot":"","sources":["../../src/number/second-fraction.ts"],"names":[],"mappings":";;;;;;;;;;;IAAA,SAAwB,cAAc,CAAC,IAAW;QAE9C,OAAO,IAAI,CAAC,OAAO,EAAE,GAAG,IAAI,CAAC;IACjC,CAAC;IAHD,iCAGC"}
+{"version":3,"file":"second-fraction.js","sourceRoot":"","sources":["../../src/number/second-fraction.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,UAAU,cAAc,CAAC,IAAW;IAE9C,OAAO,IAAI,CAAC,OAAO,EAAE,GAAG,IAAI,CAAC;AACjC,CAAC"}
